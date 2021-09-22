@@ -1,0 +1,42 @@
+{
+	"name": "greatwhite",
+	"displayName": "Great White",
+	"description": "A Visual Studio Code theme inspired by the bluish greys of great white sharks.",
+	"version": "1.0.0",
+	"publisher": "thehedgefrog",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thehedgefrog/great-white-vscode-theme"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Great White",
+		"Grey Theme"
+	],
+	"scripts": {
+		"publish-minor": "vsce publish minor",
+		"publish-major": "vsce publish major"
+	},
+	"galleryBanner": {
+		"color": "#393C3F",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "great-white.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Great White",
+				"uiTheme": "vs-dark",
+				"path": "./themes/great-white-color-theme.json"
+			}
+		]
+	}
+}
